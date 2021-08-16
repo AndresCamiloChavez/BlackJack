@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <title>BlackJack</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-container">
+        <div class="contenedor uno">
+          <div class="jugadorUno carta">
+            <h3>Jugador 1</h3>
+            <img src="imgs/3.jpg" alt="carta"/>
+            <h3 class="valorJugador">0</h3>
+          </div>
+        </div>
+        <div class="contenedor dos">
+          <!-- <button id="pedir">pedir</button> -->
+          <div class="jugadorDos">
+            <h3>Jugador 2</h3>
+            <img src="imgs/3.jpg" alt="carta"  />
+            <h3 class="valorJugador">0</h3>
+          </div>
+        </div>
+        <div class="contenedor-baraja">
+          <button id="inicio">Jugar</button>
+          <h1>Baraja</h1>
+          <div class="baraja">
+            <img src="imgs/3.jpg" alt="carta" id="cartaRecursiva" />
+            <img src="imgs/reves.jpg" alt="carta" id="cartaReves" />
+          </div>
+        </div>
+        <div class="contenedor cuatro">
+          <!-- <button id="pedir">pedir</button> -->
+          <div class="jugadorTres carta">
+            <h3>Jugador 3</h3>
+            <img src="imgs/3.jpg" alt="carta"/>
+            <h3 class="valorJugador">0</h3>
+          </div>
+        </div>
+        <div class="contenedor cinco">
+          <!-- <button id="pedir">pedir</button> -->
+          <div class="jugadorCuatro carta">
+            <h3>Jugador 4</h3>
+            <img src="imgs/3.jpg" alt="carta"/>
+            <h3 class="valorJugador">0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/Jugador.js"></script>
+    <script src="js/Carta.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
